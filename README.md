@@ -71,7 +71,7 @@ This setup ensures:
 </p>
 
 <p align="center">
-  <em>Predefined semantic keypoint layout on the FGST spacecraft. Left: front view; Right: back view.</em>
+  <em>Spherical spatial distribution of camera poses in the training set.</em>
 </p>
 
 ---

@@ -17,41 +17,14 @@ This makes FGST particularly suitable for **keypoint-based pose estimation**, **
 ---
 
 
-### 🛠️ Data Generation Pipeline
-
-The dataset is generated using the **Blender rendering engine**, ensuring full control over the data generation process.
-
-Each rendered sample contains:
-
-- RGB image  
-- 2D projections of predefined semantic keypoints  
-- Keypoint visibility (computed via ray casting)  
-- Depth map  
-
-All annotations are generated automatically under a unified geometric framework, ensuring **strict consistency and accuracy**.
-
----
-
 ### 📷 Camera Sampling Strategy
-
-To simulate realistic on-orbit observation scenarios:
-
-- Cameras are sampled on a sphere centered at the spacecraft  
-- The optical axis always points toward the target centroid  
-- Additional perturbations are introduced to improve generalization  
 
 Sampling ranges:
 
 - **Azimuth angle**: [0°, 360°]  
 - **Elevation angle**: [-75°, 75°]  
-- **Distance**: 100 m – 600 m  
-
-This setup ensures:
-
-- Diverse viewpoints  
-- Avoidance of extreme distortions  
-- Proper target scale in images
-
+- **Distance**: 100 m – 600 m
+  
 <p align="center">
   <img src="assets/camera_position_3d_distribution.svg" width="45%">
   <img src="assets/camera_position_3d_point_cloud(1).svg" width="45%">

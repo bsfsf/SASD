@@ -63,7 +63,16 @@ This setup ensures:
 
 - Diverse viewpoints  
 - Avoidance of extreme distortions  
-- Proper target scale in images  
+- Proper target scale in images
+
+<p align="center">
+  <img src="assets/1.png" width="45%">
+  <img src="assets/2.png" width="45%">
+</p>
+
+<p align="center">
+  <em>Camera pose distribution under different distance and viewing angle configurations.</em>
+</p>
 
 ---
 

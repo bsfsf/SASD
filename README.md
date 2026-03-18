@@ -81,8 +81,8 @@ For each frame:
 This guarantees **physically accurate and reliable annotations**.
 
 <p align="center">
-  <img src="assets/keypoint_front.svg" width="45%" style="object-fit: contain;">
-  <img src="assets/keypoint_back.svg" width="45%" style="object-fit: contain;">
+  <img src="assets/4.svg" width="45%" style="object-fit: contain;">
+  <img src="assets/3.svg" width="45%" style="object-fit: contain;">
 </p>
 
 <p align="center">
@@ -112,34 +112,4 @@ This guarantees **physically accurate and reliable annotations**.
 
 ---
 
-### ✨ Key Features
-
-- High-fidelity synthetic rendering  
-- Pixel-level keypoint annotations  
-- Visibility-aware labeling  
-- Depth supervision  
-- Fully reproducible data generation pipeline  
-- Compatible with SPEED dataset  
-
----
-
-### 🚀 Applications
-
-FGST can be used for:
-
-- Monocular spacecraft pose estimation  
-- Keypoint detection and matching  
-- Learnable PnP algorithms  
-- Multi-task learning (pose + depth)  
-- Ambiguity-aware pose estimation  
-
----
-
-### 📌 Notes
-
-- The dataset is generated with **fixed random seeds** for reproducibility  
-- The CAD model is slightly simplified (e.g., chamfer removal) to improve annotation consistency  
-- Designed for **non-cooperative space scenarios**  
-
----
 

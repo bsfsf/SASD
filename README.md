@@ -16,19 +16,6 @@ This makes FGST particularly suitable for **keypoint-based pose estimation**, **
 
 ---
 
-### 🎯 Motivation
-
-Although deep neural networks (DNNs) have become the dominant paradigm in pose estimation, their performance heavily depends on **large-scale, high-quality annotated datasets**.
-
-Existing datasets (e.g., SPEED) suffer from several limitations:
-
-- Lack of keypoint annotations  
-- Missing visibility information  
-- Absence of structural geometric supervision  
-
-To address these issues, FGST is proposed to provide **fine-grained and geometrically consistent annotations** for spacecraft pose estimation.
-
----
 
 ### 🛠️ Data Generation Pipeline
 

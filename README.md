@@ -5,7 +5,7 @@
 
 **Symmetric Ambiguity Spacecraft Dataset (SASD)** is a synthetic dataset designed for **monocular pose estimation of non-cooperative spacecraft**. It is built based on the publicly available 3D model of the *Symmetric Ambiguity Spacecraft Dataset (SASD)* from NASA.
 
-Compared with existing datasets such as **SPEED**, FGST provides **richer and more comprehensive supervision**, including:
+Compared with existing datasets such as **SPEED**, SASD provides **richer and more comprehensive supervision**, including:
 
 - 2D semantic keypoints  
 - Keypoint visibility labels  

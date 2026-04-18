@@ -9,7 +9,6 @@ Compared with existing datasets such as **SPEED**, SASD provides **richer and mo
 
 - 2D semantic keypoints  
 - Keypoint visibility labels  
-- Depth information  
 - Geometrically consistent annotations  
 
 This makes SASD particularly suitable for **keypoint-based pose estimation**, **learnable PnP frameworks**, and **multi-task learning**.
